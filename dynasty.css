@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(15, 38, 68);
+    height: 5em;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1.5px solid black;
+    box-shadow: black 2px 2px 2px;
+    z-index: 999;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.home{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 100px;
+    position: relative;
+    top: 30px;
+    
+}
+.home:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.logo_1{
+    height: 130px;
+    padding-left: 100px;  
+    position: relative;
+    top: -25px;  
+}
+.sunvica{
+  background: url(https://w.ladicdn.com/s1440x478/5e54ce64f4a6442c5ac64044/sun-vi-ca-chua-cay-nhat-pham-20220802080259.jpg) no-repeat;
+  background-size: 100%;
+  height: 40em;
+  background-position: 50% 50%;
+}
+body{
+    background: url(https://w.ladicdn.com/s1440x972/5e54ce64f4a6442c5ac64044/bg-20220802051820.jpg);
+}
+.container_1{
+    margin: 100px 150px;
+    display: flex;
+}
+.anh_1{
+    width: 600px;
+}
+.mieuta_1{
+    margin: 100px 30px;
+   
+}
+.tieude_1{
+    color: rgb(246, 180, 102);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.mota_1{
+    color: rgb(246, 180, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3;
+}
+.xemthem{
+    margin-top: 60px;
+    height: 5em;
+    justify-content: center;
+    text-align: center;
+}
+.xemthem_khung{
+    height: 100px;
+}
+.a_xemthem{
+    color:rgb(246, 180, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: -65px;
+}
+.a_xemthem:hover{
+    color: red;
+    transition: 0.7s;
+}
+
+.container_2{
+        margin: 100px 150px;
+        display: block;
+        justify-content: center;
+}
+.tintuc{
+    color: rgb(246, 180, 102);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    font-size: 20px;
+}
+.tieudetintuc_1_1{
+    color: rgb(246, 180, 102);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    text-align: left;
+}
+.tintuc_1{
+    margin: 40px;
+    display: flex;
+}
+.hinhtintuc_1{
+width: 550px;
+}
+.tieudetintuc_1{
+    margin-left: 70px;
+    width: fit-content;
+}
+.mieutatintuc_1{
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 20px;
+}
+.xemthem_2{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-size: 20px;
+}
+.xemthem_2:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.tintuc_2{
+    margin: 60px;
+    display: flex;
+}
+.hinhtintuc_2{
+    width: 550px;
+    margin-left: 20px;
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width: 800px) {
+    .container_1{
+        flex-direction: column ;
+        margin: 0;
+    }
+}
+

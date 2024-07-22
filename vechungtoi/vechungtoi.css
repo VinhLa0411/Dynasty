@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(15, 38, 68);
+    height: 5em;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1.5px solid black;
+    box-shadow: black 2px 2px 2px;
+    z-index: 999;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.home{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 100px;
+    position: relative;
+    top: 30px;
+    
+}
+.home:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.logo_1{
+    height: 130px;
+    padding-left: 100px;  
+    position: relative;
+    top: -25px;  
+}
+body{
+    background: url(https://w.ladicdn.com/s1440x972/5e54ce64f4a6442c5ac64044/bg-20220802051820.jpg);
+}
+.bu{
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+h1{
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+.sukethop{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.divkhung{
+    height: 8em;
+}
+.khung{
+    width: 300px;
+}
+.hinh_1{
+    width: 500px;
+    padding-left: 20px;
+}
+.tieudesukethop{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(246, 180, 102);
+    text-align: center;
+    width: 240px;
+    position: relative;
+    top: -93px;
+    left: 30px;
+}
+.noidung{
+    width: 300px;
+}
+.noidung_1{
+    width: 300px;
+    font-size: 15.83px;
+    line-height: 1.6;
+    color: rgb(246, 180, 102);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.tieudesukethop_2{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(246, 180, 102);
+    text-align: center;
+    width: 240px;
+    position: relative;
+    top: -97px;
+    left: 30px;
+}
+
+.sukethop_2{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 100px;
+}

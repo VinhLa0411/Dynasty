@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(15, 38, 68);
+    height: 5em;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1.5px solid black;
+    box-shadow: black 2px 2px 2px;
+    z-index: 999;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.home{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 100px;
+    position: relative;
+    top: 30px;
+    
+}
+.home:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.logo_1{
+    height: 130px;
+    padding-left: 100px;  
+    position: relative;
+    top: -25px;  
+}
+li{
+    list-style-type: none;
+}
+body{
+    background: url(https://w.ladicdn.com/s1440x972/5e54ce64f4a6442c5ac64044/bg-20220802051820.jpg);
+}
+.bu{
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+h1{
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+.section_1{
+    justify-content:center;
+    
+    display: flex;
+    margin: 40px;
+}
+.nhaplieu{
+    display: block;
+    margin-left: 10%;
+}
+.nhapvao{
+    width: 500px;
+    height: 45px;
+    border: 1px solid rgb(246, 180, 102);
+    background-color: rgb(0,0,0,0);
+    margin-top: 20px;
+}
+input[type="text"]{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(246, 180, 102) ;
+}
+input[type="number"]{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(246, 180, 102) ;
+}
+input:hover{
+    border: 1px solid rgb(246, 180, 102);
+}
+
+.nhapvao::placeholder{
+    color: rgb(246, 180, 102);
+}
+.chinhanh{
+    border: 1px solid rgb(246, 180, 102);
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(246, 180, 102);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chonchinhanh{
+    margin: 10px;
+}
+.comment{
+    width: 500px;
+    height: 100px;
+    border: 1px solid rgb(246, 180, 102);
+    background-color: rgb(0,0,0,0);
+    margin-top: 20px;
+}
+.comment::placeholder{
+    color: rgb(246, 180, 102);
+}
+.diachi{
+    display: block;
+}
+.khung{
+    width: 40%;
+}
+.dk{
+    margin: 8% 5%;
+    font-weight: bold;
+    color: rgb(246, 180, 102);
+    display: flex;   
+}
+.divkhung{
+    height: 20%;
+}
+.khung{
+width: 300px;
+position: relative;
+top: -80px;
+}
+.line_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dk-2{ margin-top: 5%;
+    text-align: left;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.datban > button>a{
+  
+    font-weight: bold;
+    font-size: 110%;
+    text-decoration: none;
+    color: black;
+}
+.datban > button{
+    margin-top: 20px;
+    background-color:rgb(246, 180, 102) ;
+    width: 200px;
+    height: 40px;
+}
+
+ 

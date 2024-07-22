@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 38, 68);
+    height: 5em;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1.5px solid black;
+    box-shadow: black 2px 2px 2px;
+    z-index: 999;
+}
+.home{
+    text-decoration: none;
+    color: rgb(246, 180, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    padding-left: 100px;
+    position: relative;
+    top: 30px;
+    
+}
+.home:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.logo_1{
+    height: 130px;
+    padding-left: 100px;  
+    position: relative;
+    top: -25px;  
+}
+li{
+    list-style-type: none;
+}
+body{
+    background: url(https://w.ladicdn.com/s1440x972/5e54ce64f4a6442c5ac64044/bg-20220802051820.jpg);
+}
+.hethong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+.h3>h3{
+    margin-top: 5%;
+    font-weight: bold;
+    color: rgb(246, 180, 102);
+    font-size: 150%;
+   
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color:rgb(246, 180, 102); ;
+}
+.dk{
+    margin: 5% 5%;
+    font-weight: bold;
+    color: rgb(246, 180, 102);
+    display: flex;
+    
+}
+.dk-img>img{
+    width: 600px;
+    margin-left: 2%;
+    padding: 2%;
+    border: 2px solid rgb(246, 180, 102); ;
+}
+.dk-2{ 
+    letter-spacing: 3px;
+    margin-top: 3%;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.dk-1{ margin-top: 5%;
+    text-align: center;
+    font-size: 130%;
+   
+}
+.divkhung{
+    height: 15%;
+}
+.khung{
+  
+    width: 300px;
+position: relative;
+top: -80px;
+}
+ 
